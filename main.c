@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
     char str[5];
     
     while(fgets(str, sizeof(str), stdin)){
-        printf("%s\n", str);
+        printf("%s", str);
     }
 
     return 0;
