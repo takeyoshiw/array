@@ -4,30 +4,6 @@ compiler:
   - gcc
 script:
     - make
-    - if [ -e input1.txt ]; then 
-        make input=input1.txt expect=output1.txt test 
-      fi
-    - if [ -e input2.txt ]; then 
-        make input=input2.txt expect=output2.txt test 
-      fi
-    - if [ -e input3.txt ]; 
-        then make input=input3.txt expect=output3.txt test 
-      fi
-    - if [ -e input4.txt ]; then 
-        make input=input4.txt expect=output4.txt test 
-      fi
-    - if [ -e input5.txt ]; then 
-        make input=input5.txt expect=output5.txt test 
-      fi
-    - if [ -e input6.txt ]; then 
-        make input=input6.txt expect=output6.txt test 
-      fi
-    - if [ -e input7.txt ]; then 
-        make input=input7.txt expect=output7.txt test 
-      fi
-    - if [ -e input8.txt ]; then 
-        make input=input8.txt expect=output8.txt test 
-      fi
-    - if [ -e input9.txt ]; then 
-        make input=input9.txt expect=output9.txt test 
-      fi
+    - make input=input1.txt expect=output1.txt test 
+    - make input=input2.txt expect=output2.txt test 
+    - make input=input3.txt expect=output3.txt test 
