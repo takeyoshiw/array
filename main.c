@@ -1,12 +1,8 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[]) 
+int main() 
 {
-    char str[5];
+    int array[];
     
-    while(fgets(str, sizeof(str), stdin)){
-        printf("%s", str);
-    }
-
     return 0;
 }
