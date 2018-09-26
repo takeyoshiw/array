@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
     int n;
   
       if(n<0){
-      printf("%d\n",array[n]);
+      printf("%d\n",array[-n]);
       }
       else if(n>=0){
         array[i]=n;
