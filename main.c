@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     int array[100];
     int i=0;
     int n;
-    scanf_s("%d",&n);
+  
       if(n<0)
         printf("%d\n",array[n]);
     else if(n>=0){
