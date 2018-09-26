@@ -2,13 +2,15 @@
 
 int main(int n)
 {
-    int array[100],i;
+    int array[100];
+    int i=0;
     
-    for(i=0;i<100;i++){
-        if(n>=0)
-            array[i]=n;
-        else
-            printf("%d\n",array[n])
+    if(n<0)
+        printf("%d",array[n]);
+    else{
+        array[i]=n;
+        i++;
     }
+        
     return 0;
 }
