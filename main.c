@@ -14,9 +14,10 @@ int main(int argc, char *argv[])
     int i=0;
     int n;
   
-      if(n<0)
-        printf("%d\n",array[n]);
-    else if(n>=0){
+      if(n<0){
+      printf("%d\n",array[n]);
+      }
+      else if(n>=0){
         array[i]=n;
         i++;
     }
